@@ -1,6 +1,6 @@
 # danbryan/homebrew-tap
 
-Homebrew tap for [Attaché](https://attache.bryanlabs.net), the native macOS app
+Homebrew tap for [Attaché](https://attache.fm), the native macOS app
 that speaks your AI agents' updates out loud.
 
 ## Install

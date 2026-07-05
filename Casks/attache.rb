@@ -1,12 +1,12 @@
 cask "attache" do
-  version "0.3.1"
-  sha256 "fb5dd67b8697572e798146959c77a8ff49ce2dbe7a612d8f3c44e9e88bb266cd"
+  version "0.1.0"
+  sha256 "f4ba5865d490b2498be2ce243823fdcaf34e2cbcfea00151c1ee7adfab6f8575"
 
   url "https://github.com/danbryan/attache/releases/download/v#{version}/Attache.dmg",
       verified: "github.com/danbryan/attache/"
   name "Attaché"
   desc "Speaks your AI agents' updates out loud, for Codex and Claude Code"
-  homepage "https://attache.bryanlabs.net/"
+  homepage "https://attache.fm/"
 
   livecheck do
     url :url
