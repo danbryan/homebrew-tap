@@ -1,6 +1,6 @@
 cask "attache" do
-  version "0.2.0"
-  sha256 "a1e618f7f4ee021d610430000197db8a2f3f4bb99a65addc43717aa2b62c8dbf"
+  version "0.3.0"
+  sha256 "0022f78316d7685d9e5670e9b4e20ff7687843a01f802938942b3618c8c73cdb"
 
   url "https://github.com/danbryan/attache/releases/download/v#{version}/Attache.dmg",
       verified: "github.com/danbryan/attache/"
