@@ -1,6 +1,6 @@
 cask "attache" do
-  version "0.3.0"
-  sha256 "0022f78316d7685d9e5670e9b4e20ff7687843a01f802938942b3618c8c73cdb"
+  version "0.4.0"
+  sha256 "a846208bd186b436cf1298547e832d0d988918283cce28a2973ebd26f8747dae"
 
   url "https://github.com/danbryan/attache/releases/download/v#{version}/Attache.dmg",
       verified: "github.com/danbryan/attache/"
@@ -19,8 +19,8 @@ cask "attache" do
   app "Attache.app"
 
   zap trash: [
-    "~/Library/Application Support/Attache",
     "~/Library/Application Support/Attache Backups",
+    "~/Library/Application Support/Attache",
     "~/Library/Caches/com.bryanlabs.attache",
     "~/Library/Preferences/Attache.plist",
     "~/Library/Preferences/com.bryanlabs.attache.plist",
